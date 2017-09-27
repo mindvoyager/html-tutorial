@@ -37,7 +37,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	color: #e91c1c;
-	text-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 h1::after { /*This is the underline */
@@ -221,7 +221,7 @@ section {
 }
 
 .reservation h2 {
-	width: 704;
+	width: 70%;
 	text-align: center;
 	margin: 0 auto;
 	color: #13161b;
@@ -252,12 +252,12 @@ section {
 .reservation form {
 	font-size: 15px;
 	outline: none;
-	font-weight: 6000;
+	font-weight: 600;
 	color: #8D8E8F;
 	padding: 12px 12px;
 	width: 70%;
 	border: 1px solid #808080;
-	margin: 24 auto;
+	margin: 2% auto;
 	border-radius: 7px;
 	background: rgb(227,222,222);
 	box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
@@ -283,7 +283,7 @@ section {
 }
 
 .reservation input[type="text"]:hover {
-	box-shadow: 0 0 rgba(100,65,00,.8);
+	box-shadow: 0 0 18px rgba(100,65,00,.8);
 }
 
 .form-spacer {
@@ -291,7 +291,7 @@ section {
 }
 
 .terms {
-	margin: 360px 1px 0 0;
+	margin: 30px 1px 0 0;
 	padding-left: 52px;
 	font-size: 14px;
 	line-height: 5px;
@@ -327,7 +327,7 @@ section {
 	box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
-.submit input[type="submit"] {
+.submit input[type="submit"]:hover {
 	color: #000;
 	background-color: #8d8e8f;
 	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5)
